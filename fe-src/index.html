@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
+    <script async type="module" src="./index.ts"></script>
+  </head>
+  <body>
+    <form class="form">
+      <label>
+        <h2>Nombre</h2>
+        <input type="text" class="input" name="fullname" />
+      </label>
+      <label>
+        <h2>Bio</h2>
+        <textarea name="bio" class="bio"></textarea>
+      </label>
+      <div class="profile-picture-container">
+        <img class="profile-picture" />
+        <h3>Arrastra tu foto aqui</h3>
+      </div>
+      <br />
+      <div>
+        <button>Guardar Perfil</button>
+      </div>
+    </form>
+  </body>
+</html>
